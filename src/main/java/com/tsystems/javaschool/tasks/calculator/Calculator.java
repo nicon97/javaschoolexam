@@ -18,7 +18,18 @@ public class Calculator {
     public String evaluate(String statement) {
         // TODO: Implement the logic here
 
-        if (statement == null || statement == "")
+        boolean clase_correcta;
+
+        try {
+            clase_correcta = statement.getClass() != "string".getClass();
+        } catch (Exception e) {
+            return null;
+        }
+
+        if (clase_correcta)
+            return null;
+
+        if (statement.length() == 0)
             return null;
 
         for (int i = 0; i < statement.length(); i++) {
