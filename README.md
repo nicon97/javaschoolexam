@@ -12,6 +12,7 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 ### Result ###
 
 * Author name : {PUT YOUR NAME HERE}
+* Pipeline status: {PUT A BADGE HERE}
 
 
 ### How to start?  ###
@@ -25,6 +26,7 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 * Commit and push all changes to your repository
 * Configure the [Bitbucket Pipelines](https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/) to deploy your maven project(use maven template for creating your pipelines) 
 * Add your name to the README.md under Result section
+* Add a badge with a status of your pipeline under Result section using the next template: https://img.shields.io/bitbucket/pipelines/:userName/:repositoryName/:branchName
 * Check that the latest pipeline shows green build. We will not accept your solution if it is red. Also check that all 33 tests are passed in the pipeline.
 * Send us an email with the link to your repository. Be aware that the build must be green all the time after you send us the link
 
