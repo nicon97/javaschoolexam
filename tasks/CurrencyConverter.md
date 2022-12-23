@@ -6,7 +6,7 @@
 
 You should write a simple financial converter that works in the console.
 
-### Functional: ### 
+### Functional:  
 
 - 2 currencies - dollar ($12) and euro (52.5euro)
 - Operations **+** and **-**
@@ -17,7 +17,7 @@ You should write a simple financial converter that works in the console.
 - Type control: cannot convert a currency to itself
 - It's not possible to sum or subtract different currencies
 
-### Example: ### 
+### Example:  
 
 - 1$ - 0.8euro
 
